@@ -4,8 +4,8 @@ const Web3 = require('web3');
 const { abi, evm } = require('./compile');
  
 provider = new HDWalletProvider(
-    'famous weird identify hint tiny grace photo bonus black cheese warrior faint',
-    'https://rinkeby.infura.io/v3/0311aec30e154a1fa63c030901b3a08d'
+  'famous weird identify hint tiny grace photo bonus black cheese warrior faint',
+  'https://rinkeby.infura.io/v3/0311aec30e154a1fa63c030901b3a08d'
 );
  
 const web3 = new Web3(provider);
